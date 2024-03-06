@@ -1,0 +1,19 @@
+{
+  "name": "ejemplo_npm",
+  "version": "1.0.0",
+  "description": "Esto es un ejemplo de un fichero package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "basico"
+  ],
+  "author": "Lucca Avanzini",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.1.11"
+  }
+}
