@@ -1,5 +1,4 @@
 // definimos un objeto de forma literal
-
 var empleado = {
   name: "Thomas",
   profesion: "Dev", // string
@@ -29,15 +28,12 @@ try {
   console.log('no se pudo leer "serializado"');
 }
 // para comprobar si leído tiene algo
-
 if (typeof leido != "undefined") {
   console.log("Hay algo leído");
 } else {
   console.log("no hay nada leido");
 }
-
 //  vamos a recorrer las armas del agente y a decirselo al usuario que armas tiene
-
 for (var i = 0; i < empleado.armas.length; i++) {
   var arma = empleado.armas[i];
   console.log(empleado.name +(arma == 'boxeo' ? ' sabe ' : ' tiene ' )+ arma);
